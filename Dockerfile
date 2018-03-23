@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:8-slim
 
 # Install latest chrome and puppeteer dependencies
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - &&\
